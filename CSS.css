@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+  .buttons {
+padding-top:20%;
+}
+.button
+{
+  width: 90px;
+  height:40px;
+  color:#fff;
+  background-color:black;
+  border-radius:10px;
+  font-size:20px;
+}
+i:hover
+{
+color:black;}
+button:hover
+{
+  color:red;
+}
+button:focused
+{
+  border-color:green;
+}
+#tweet-quote{
+  padding-right:px;
+  color:#fff;
+  font-size:25px;
+}
+a{
+  color:#fff;
+}
+a:hover{
+  color:red;
+}
+.text{
+  padding-top:5%;
+}
+.author{
+ float:right;
+  padding-top:10%;
+  padding-right:10%;
+}
+#main{
+  background-color:black;
+  height: 100vh;
+  width: 100%;
+}
+.dashoreba{
+ padding-top:7%;
+}
+#quote-box{
+  text-align:center;
+  background-color:#8B0000;
+  box-sizing: border-box;
+  border-radius:10px;
+  width: 650px;
+  margin:auto;
+  display: table;
+}
+div .text span{
+ font-family: 'Lobster', cursive;
+  font-weight:500;
+  font-size:40px;
+  color:#fff;
+}
+div .author span{
+  font-family:Snell Roundhand, cursive;
+    font-size:20px;
+    color:#fff;
+}
+.footer{
+  text-align:center;
+  padding-top:20px;
+   color:#fff;
+}
+body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+small{
+  position: absolute; 
+  bottom: 0;
+  color:#fff;
+  font-size:10px;
+}
+small:hover{
+  font-size:20px;
+}
